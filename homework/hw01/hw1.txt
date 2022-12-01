@@ -1,0 +1,37 @@
+Определите, на каком протоколе работает сайт.
+https
+Проанализируйте структуру страницы сайта
+Структура сайта:
+<!DOCTYPE html>
+	<head> верхняя часть саита не отображается в основном преднозначена для храниения и подключения внешней информации 
+  		<meta charset="utf-8"> кодировка 
+		<title>C.A.T.S.: Crash Arena Turbo Stars - a mobile game by Zeptolab. Official website.</title>  информация в верхней строкуе браузера 
+  		<meta name="description" content="Build the ultimate battle bot from collected parts and unleash its power against other players in automatic PvP fights. Collect, upgrade and combine spare parts to assemble the best combat robot and become the star of the arena.">
+		данные для посковика
+		<link href="/favicon.ico" rel="shortcut icon"> данные для картинки 
+	</head>
+	<body data-app="app"> тело сайта 
+  		<div class="page-content"> див с классом для подключени стилей и тд 
+		<div class="page-top"> 
+  			<div class="container-flexible"> часть для подключения flexa 
+		<header class="header"> верхняя часть основного контента 	
+    			<div class="header__nav"> див с подлюченным для навигаций классом 
+      		<a href="/" class="logo-link"> тэг для отображения логотипа 
+        		<div class="logo"></div>
+      		</a>
+	<class="footer limit-width-xxl"> самый низ сайта преднозначен для отображения контактной информации создателя\ сайта
+        	возможность заргуки приложений для телефона
+    
+  	<div class="stores-info" data-lazy-appear="" data-lazy-appeared="" style="opacity: 1; transform: translateY(0px);"> раздел загрузки приложений 
+      		<div class="stores__icon"></div> 
+      		<div class="stores__content">
+        	<h4 class="links-alert">Download now!</h4> 
+        	<div class="buttons">
+          		<a href="http://m.onelink.me/e0e01e1" class="stores-button stores-button--app-store" target="_blank"></a> загружка приложения для айфон 
+          		<a href="http://m.onelink.me/3ee7fb13" class="stores-button stores-button--google-play" target="_blank"></a>
+ 
+
+ 
+Внесите не менее 10 изменений на страницу с помощью инструмента разработчика и представьте скриншоты было/стало.
+
+Создайте прототип низкой детализации

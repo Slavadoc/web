@@ -1,0 +1,61 @@
+h1 {
+    color: rgb(102, 153, 153);
+    background-color: brown;
+    text-align: center;
+    border: 4px;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(120, 167, 203);
+    padding: 10px;
+    border: 2px dotted black;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    text-align: center; */
+    /* display: inline-block;
+    padding: 5px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 1s;  
+}
+
+li {
+    display: inline-block;
+    padding: 5px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+li:hover {
+    background-color: azure;
+}
+
+.second_class {
+    background-color: brown;
+}
+
+footer {
+    text-align: center;
+}
+
+img {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.scale {
+    transition: 1s;
+    /* Время эффекта */
+}
+
+.scale:hover {
+    transform: scale(1.2);
+}
