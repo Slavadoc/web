@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SUM</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <!-- <link defer src="js.js"> -->
+</head>
+
+<body>
+    <div class="box">
+        <h1>Калькулятор</h1>
+        <input type="text" value="0" id="val1"></input>
+        <input type="text" value="0" id="val2"></input>
+        <button onclick="sum()">+</button>
+        <input type="text" id="result"></input>
+        <script>
+            function sum(var1, var2) {
+                var v1 = +document.getElementById("val1").value;
+                var v2 = +document.getElementById("val2").value;
+                var result = v1 + v2
+                document.getElementById("result").value = result
+            }
+        </script>
+    </div>
+</body>
+
+<footer>
+    <!-- (C) 2022 -->
+</footer>
+
+</html>
