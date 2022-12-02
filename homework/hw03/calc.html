@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SUM</title>
+</head>
+<body>
+    <div class="box">
+        <h1>Калькулятор</h1>
+        <input type="text" value="0" id="val1"/>
+        <input type="text" value="0" id="val2"/> 
+        <button onclick="calc('+')">+</button>
+        <button onclick="calc('-')">-</button>
+        <button onclick="calc('*')">*</button>
+        <button onclick="calc('/')">/</button>
+        <input type="text" id="result"/>
+        <script>
+            function calc(symbols) {
+                var v1 = +document.getElementById("val1").value;
+                var v2 = +document.getElementById("val2").value;
+                var result;
+                switch (true){
+                    case symbols == '+':
+                        result = v1 + v2
+                        break
+                    case symbols == '-':
+                        result = v1 - v2
+                        break
+                    case symbols == '*':
+                        result = v1 * v2
+                        break
+                    case symbols == '/':
+                        result = v2 != 0 ? v1 / v2 : 'Делить на ноль нельзя!'
+                        break
+                }
+                document.getElementById("result").value = result
+            }
+        </script>
+    </div>
+</body>
+</html>

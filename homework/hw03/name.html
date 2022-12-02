@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Name</title>
+</head>
+
+<body>
+    <h1>Скажи мне свое имя</h1>
+    <input type="text" value="Введи свое имя" id="value" />
+    <button onclick="echo()">Нажми меня!</button>
+    <input type="text" id="result" />
+    <script>
+        function echo() {
+            var v = document.getElementById("value").value;
+            var result='';
+            switch (true){
+                case v == 'Слава':
+                    result = `Ты красавчик ${v}!`
+                    break
+                default:
+                    result = `Ну привет тебе  ${v}!`
+
+            }
+            document.getElementById("result").value = result
+        }
+    </script>
+</body>
+</html>
