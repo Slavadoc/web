@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PHP</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <!-- <link defer src="js.js"> -->
+</head>
+
+<body>
+    <?php
+    ?>
+    < <!-- <?php echo "Привет одноко" -->
+        > -->
+        <!-- <div class="box"> -->
+        <!-- <h1>Калькулятор</h1>
+        <input type="text" value="0" id="val1"></input>
+        <input type="text" value="0" id="val2"></input>
+        <button onclick="sum()">+</button>
+        <input type="text" id="result"></input> -->
+        <!-- <script> -->
+
+        <!-- // function sum(var1, var2) {
+        // var v1 = +document.getElementById("val1").value;
+        // var v2 = +document.getElementById("val2").value;
+        // var result = v1 + v2
+        // document.getElementById("result").value = result
+        // } -->
+        <!-- </script> -->
+        <!-- </div> -->
+</body>
+
+<footer>
+    <!-- (C) 2022 -->
+</footer>
+
+</html>
+
+$cart = [
+[
+'name' => 'Кофемолка',
+'price' => 234
+],
+[
+'name' => 'Чайник',
+'price' => 33
+]
+];
+
+echo "
+<pre>";
+
+print_r($cart[1]['name']);
+
+
+<?php
+$name = "Alex";
+$profession = "Web Developer";
+$city = "LA";
+$country = "USA";
+$email = "qqq@mail.com";
+$phone = "+1 999 999 99 99";
+$skills = [ 
+['skillName' => 'Adobe Photoshop', 'value'  => 50],  
+['skillName' => 'Photography', 'value'  => 75], 
+['skillName' => 'Illustrator', 'value'  => 80],
+['skillName' => 'Media', 'value'  => 90],
+]
+?>
+
+<p><?=$skills[0]['skillName']?></p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:<?=$skills[0]['value']?>%"><?=$skills[0]['value']?>%</div>
+          </div>
+
+          
+foreach ($skills as $skill): ?>
+  <?=$skill['name']?> <?=$skill['value']?>
+          
+<?php endforeach;?>
+          
+Для домашки
+foreach ($skills as $key => $skill): ?>
+
+<?php if ($key == 0):?> current <?php endif; ?>
+
+<?=$skill['name']?> <?=$skill['value']?>
+
+<?php endforeach;?>
+
+
+
+можно ли сделать здесь https://onecompiler.com/mysql/ и скинуть кодом в блокноте?
