@@ -1,0 +1,58 @@
+{
+    "basket": {
+    "items": [
+        {
+        "id" : 1,
+        "itemName" : "bike",
+        "foodStuff" : false,
+        "itemPropertys" : [
+            {
+            "type" : "electric"
+            },
+            {
+            "color" : "red"
+            },
+            {
+            "material": "metal"
+            }
+            ],
+        "cost" : 123
+        },
+        {
+        "id" : 2,
+        "itemName" : "kettle",
+        "foodStuff" : false,
+        "itemPropertys" : [
+            {
+            "type" : "electric"
+            },
+            {
+            "color" : "blue"
+            },
+            {
+            "material": "wood"
+            }
+            ],
+        "cost" : 234
+        },
+        {
+        "id" : 3,
+        "itemName" : "Vodka",
+        "foodstuff" : true,
+        "itemPropertys" : [
+            {
+            "type" : "liquid"
+            },
+            {
+            "color" : "colourless"
+            },
+            {
+            "material": "bottle glass"
+            }
+            ],
+        "cost" : 345
+        }
+    ],
+    "totalCost" : 702
+    }
+}

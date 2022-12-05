@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<basket>
+    <items>
+        <id>1</id>
+        <itemName>bike</itemName>
+        <foodStuff>false</foodStuff>
+        <itemPropertys>
+            <type>electric</type>
+        </itemPropertys>
+        <itemPropertys>
+            <color>red</color>
+        </itemPropertys>
+        <itemPropertys>
+            <material>metal</material>
+        </itemPropertys>
+        <cost>123</cost>
+    </items>
+    <items>
+        <id>2</id>
+        <itemName>kettle</itemName>
+        <foodStuff>false</foodStuff>
+        <itemPropertys>
+            <type>electric</type>
+        </itemPropertys>
+        <itemPropertys>
+            <color>blue</color>
+        </itemPropertys>
+        <itemPropertys>
+            <material>wood</material>
+        </itemPropertys>
+        <cost>234</cost>
+    </items>
+    <items>
+        <id>3</id>
+        <itemName>Vodka</itemName>
+        <foodstuff>true</foodstuff>
+        <itemPropertys>
+            <type>liquid</type>
+        </itemPropertys>
+        <itemPropertys>
+            <color>colourless</color>
+        </itemPropertys>
+        <itemPropertys>
+            <material>bottle glass</material>
+        </itemPropertys>
+        <cost>345</cost>
+    </items>
+    <totalCost>702</totalCost>
+</basket>
