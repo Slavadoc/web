@@ -1,0 +1,67 @@
+{
+  "hospital": {
+    "doctors": [
+      {
+        "id": "1",
+        "firstName": "Vasia",
+        "lastName": "Pupkin",
+        "specialitet": "Terapevt"
+      },
+            {
+        "id": "2",
+        "firstName": "Kolya",
+        "lastName": "Ivanon",
+        "specialitet": "Surgeon"
+      }
+    ],
+    "systers" : [
+      {
+        "id": "1",
+        "firstName": "Pamela",
+        "lastName": "Andersen",
+        "specialitet": "massage"
+      },
+      {
+        "id": "2",
+        "firstName": "Maria",
+        "lastName": "Sharapova",
+        "specialitet": "massage"
+      }
+
+    ],
+    "patiens" : [
+      {
+        "id": "1",
+        "firstName": "Helga",
+        "lastName": "Muller",
+        "age" : 99,
+        "Diagnosis": "Haemorrhoids",
+        "Pocket" : [
+          {
+            "Shocalate" : "Rot_Front"
+          },
+          {
+            "Bottle" : "Whiske",
+            "Smth" : "Smth"
+          }
+          ]
+      },
+      {
+        "id": "2",
+        "firstName": "Jon",
+        "lastName": "Anderson",
+        "age" : 16,
+        "Diagnosis": "Ulser",
+                "Pocket" : [
+          {
+            "Shocalate" : "Nutsl"
+          },
+          {
+            "Bottle" : "Water",
+            "Smth" : "Smth"
+          }
+          ]
+      }
+    ]
+  }
+}

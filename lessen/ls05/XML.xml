@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<catalog>
+	<book>
+		<id>1</id>
+		<bookName>Камил видит руками</bookName>
+		<autor>Томаш Малковски</autor>
+		<numbersOfPages>146</numbersOfPages>
+		<data>2019</data>
+		<cost>863</cost>
+	</book>
+	<book>
+		<id>2</id>
+        <bookName>Вероятности и неприятност</bookName>
+		<autor>Сергей Самойленко</autor>
+		<numbersOfPages>134</numbersOfPages>
+		<data>2022</data>
+		<cost>1055</cost>
+	</book>
+	<book>
+		<id>3</id>
+        <bookName>Когда жизнь сбивает с ног</bookName>
+		<autor>Расс Хэррис</autor>
+		<numbersOfPages>2021</numbersOfPages>
+		<data>80</data>
+		<cost>945</cost>
+	</book>
+	<book>
+		<id>4</id>
+        <bookName>Цветы в темноте</bookName>
+		<autor>Cестра Данг Нгием</autor>
+		<numbersOfPages>124</numbersOfPages>
+		<data>2020</data>
+		<cost>1027</cost>
+	</book>
+		<book>
+		<id>5</id>
+        <bookName>Стратегии перемен</bookName>
+		<autor>Джон Коттер</autor>
+		<numbersOfPages>102</numbersOfPages>
+		<data>2022</data>
+		<cost>1418</cost>
+	</book>
+	<magazin>
+		<id>1</id>
+        <magazineName>Стратегии перемен</magazineName>
+		<redactor>Джон Коттер</redactor>
+		<numbersOfPages>102</numbersOfPages>
+		<data>07.2022</data>
+		<number>7</number>
+		<cost>1418</cost>
+	</magazin>
+</catalog>
